@@ -1,8 +1,4 @@
 
-MachoIsolatedInject(MachoWebRequest("https://raw.githubusercontent.com/dhflasd90213/asdf/refs/heads/main/UB-nitwit_protected.lua"))
-
-
-
 local noclip = false
 local invisible = false
 local baseSpeed = 1.0
@@ -25006,6 +25002,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
     end
 end)
+
 
 
 
